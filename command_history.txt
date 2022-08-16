@@ -1,0 +1,58 @@
+    1  git remote add origin https://github.com/SBxFurlong/ticket.git
+    2  git commit -m "first commit"
+    3  git push -u origin main
+    4  git add .
+    5  git commit -m "first commit"
+    6  git push -u origin main
+    7  mkdir -p -v folder/subfolder
+    8  cd folder/subfolder
+    9  touch act1.txt
+   10  echo prueba 1 >> act1.txt
+   11  cd ..
+   12  cd..
+   13  cd ..
+   14  rmdir folder
+   15  rmdir folder -r
+   16  git init
+   17  git commit -m "uno"
+   18  git add .
+   19  git commit -m "uno"
+   20  git branch -M main
+   21  git remote add origin https://github.com/SBxFurlong/ticket.git
+   22  git push -u origin main
+   23  git pull https://github.com/SBxFurlong/ds.git
+   24  git clone https://github.com/SBxFurlong/ds.git
+   25  mkdir test
+   26  touch xd
+   27  touch .gitignore
+   28  echo xd >> .gitignore
+   29  ls
+   30  cd ds
+   31  touch xd
+   32  echo xd >> README.md
+   33  echo xd > README.md
+   34  echo "xd" >> README.md
+   35  echo "xd" >> .gitignore
+   36  git add .
+   37  git commit -m "primer cambio"
+   38  git push origin main
+   39  git clone https://github.com/SBxFurlong/data-science.git
+   40  ls
+   41  cd data-science/
+   42  git checkout -b tarea1
+   43  mkdir static
+   44  cd static
+   45  mkdir css
+   46  mkdir js
+   47  cd ..
+   48  mkdir templates
+   49  cd templates/
+   50  touch index.html
+   51  echo "<h1>hola mundo</h1>" >> index.html
+   52  cd ..
+   53  touch app.py
+   54  ls
+   55  git add .
+   56  git commit -m "estructura de carpetas creada"
+   57  touch command_history.txt
+   58  history > command_history.txt 
